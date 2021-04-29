@@ -1,0 +1,702 @@
+[
+	{
+		"model": "backend.demographicgroup",
+		"pk": 1,
+		"fields": {
+			"created_at": "2021-04-26T02:31:57.747Z",
+			"modified_at": "2021-04-26T02:31:57.747Z",
+			"short_name": "demoA",
+			"long_name": "Demographic Group A",
+			"num_accounts": 90,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.demographicgroup",
+		"pk": 2,
+		"fields": {
+			"created_at": "2021-04-26T02:32:05.504Z",
+			"modified_at": "2021-04-26T02:32:05.504Z",
+			"short_name": "demoB",
+			"long_name": "Demographic Group B",
+			"num_accounts": 140,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.demographicgroup",
+		"pk": 3,
+		"fields": {
+			"created_at": "2021-04-26T02:32:16.155Z",
+			"modified_at": "2021-04-26T02:32:16.155Z",
+			"short_name": "demoC",
+			"long_name": "Demographic Group C",
+			"num_accounts": 220,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.demographicgroup",
+		"pk": 4,
+		"fields": {
+			"created_at": "2021-04-26T02:32:26.256Z",
+			"modified_at": "2021-04-26T02:32:26.256Z",
+			"short_name": "demoD",
+			"long_name": "Demographic Group D",
+			"num_accounts": 145,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.demographicgroup",
+		"pk": 5,
+		"fields": {
+			"created_at": "2021-04-26T02:32:34.015Z",
+			"modified_at": "2021-04-26T02:32:34.015Z",
+			"short_name": "demoE",
+			"long_name": "Demographic Group E",
+			"num_accounts": 200,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.demographicgroup",
+		"pk": 6,
+		"fields": {
+			"created_at": "2021-04-26T02:32:47.339Z",
+			"modified_at": "2021-04-26T02:32:47.339Z",
+			"short_name": "demoF",
+			"long_name": "Demographic Group F",
+			"num_accounts": 160,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 1,
+		"fields": {
+			"created_at": "2021-04-26T02:26:16.605Z",
+			"modified_at": "2021-04-26T02:26:16.605Z",
+			"short_name": "netflix",
+			"long_name": "Netflix",
+			"subscription_fee": 15,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:26:16.605Z"
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 2,
+		"fields": {
+			"created_at": "2021-04-26T02:28:04.441Z",
+			"modified_at": "2021-04-26T02:28:04.441Z",
+			"short_name": "hulu",
+			"long_name": "Hulu",
+			"subscription_fee": 9,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:28:04.441Z"
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 3,
+		"fields": {
+			"created_at": "2021-04-26T02:28:39.052Z",
+			"modified_at": "2021-04-26T02:28:39.052Z",
+			"short_name": "disney",
+			"long_name": "Disney+",
+			"subscription_fee": 18,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:28:39.052Z"
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 4,
+		"fields": {
+			"created_at": "2021-04-26T02:28:46.384Z",
+			"modified_at": "2021-04-26T02:28:46.384Z",
+			"short_name": "hbo",
+			"long_name": "HBO Max",
+			"subscription_fee": 18,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:28:46.384Z"
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 5,
+		"fields": {
+			"created_at": "2021-04-26T02:29:05.266Z",
+			"modified_at": "2021-04-26T02:29:05.266Z",
+			"short_name": "prime",
+			"long_name": "Prime Video",
+			"subscription_fee": 13,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:29:05.266Z"
+		}
+	},
+	{
+		"model": "backend.streamingservice",
+		"pk": 6,
+		"fields": {
+			"created_at": "2021-04-26T02:29:57.733Z",
+			"modified_at": "2021-04-26T02:29:57.734Z",
+			"short_name": "apple",
+			"long_name": "AppleTV+",
+			"subscription_fee": 16,
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0,
+			"licensing": 0,
+			"created_on": "2021-04-26T02:29:57.734Z"
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 1,
+		"fields": {
+			"created_at": "2021-04-26T02:30:22.210Z",
+			"modified_at": "2021-04-26T02:30:22.210Z",
+			"short_name": "espn",
+			"long_name": "ESPN Studios",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 2,
+		"fields": {
+			"created_at": "2021-04-26T02:30:29.166Z",
+			"modified_at": "2021-04-26T02:30:29.166Z",
+			"short_name": "lucasfilm",
+			"long_name": "Lucasfilm",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 3,
+		"fields": {
+			"created_at": "2021-04-26T02:30:34.811Z",
+			"modified_at": "2021-04-26T02:30:34.811Z",
+			"short_name": "marvel",
+			"long_name": "Marvel Entertainment Studios",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 4,
+		"fields": {
+			"created_at": "2021-04-26T02:30:40.375Z",
+			"modified_at": "2021-04-26T02:30:40.375Z",
+			"short_name": "sony",
+			"long_name": "Sony Pictures",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 5,
+		"fields": {
+			"created_at": "2021-04-26T02:30:45.996Z",
+			"modified_at": "2021-04-26T02:30:45.996Z",
+			"short_name": "mgm",
+			"long_name": "MGM Studios",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 6,
+		"fields": {
+			"created_at": "2021-04-26T02:30:56.216Z",
+			"modified_at": "2021-04-26T02:30:56.216Z",
+			"short_name": "focus",
+			"long_name": "Focus Features",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.studio",
+		"pk": 7,
+		"fields": {
+			"created_at": "2021-04-26T02:31:25.079Z",
+			"modified_at": "2021-04-26T02:31:25.079Z",
+			"short_name": "legendary",
+			"long_name": "Legendary Entertainment",
+			"current_period": 0,
+			"previous_period": 0,
+			"total": 0
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 1,
+		"fields": {
+			"created_at": "2021-04-26T02:34:08.397Z",
+			"modified_at": "2021-04-26T02:34:08.397Z",
+			"name": "NBA Championship",
+			"type": "ppv",
+			"year_produced": 2020,
+			"duration": 400,
+			"produced_by": 1,
+			"license_fee": 14000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 2,
+		"fields": {
+			"created_at": "2021-04-26T02:34:35.793Z",
+			"modified_at": "2021-04-26T02:34:35.793Z",
+			"name": "World Series: Game 7",
+			"type": "ppv",
+			"year_produced": 2020,
+			"duration": 400,
+			"produced_by": 1,
+			"license_fee": 11000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 3,
+		"fields": {
+			"created_at": "2021-04-26T02:34:54.632Z",
+			"modified_at": "2021-04-26T02:34:54.633Z",
+			"name": "Batman",
+			"type": "movie",
+			"year_produced": 1995,
+			"duration": 180,
+			"produced_by": 5,
+			"license_fee": 8000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 4,
+		"fields": {
+			"created_at": "2021-04-26T02:35:14.267Z",
+			"modified_at": "2021-04-26T02:35:14.267Z",
+			"name": "Batman",
+			"type": "movie",
+			"year_produced": 2015,
+			"duration": 220,
+			"produced_by": 7,
+			"license_fee": 14000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 5,
+		"fields": {
+			"created_at": "2021-04-26T02:35:39.755Z",
+			"modified_at": "2021-04-26T02:35:39.755Z",
+			"name": "Star Wars: Episode X",
+			"type": "movie",
+			"year_produced": 2021,
+			"duration": 190,
+			"produced_by": 2,
+			"license_fee": 13000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 6,
+		"fields": {
+			"created_at": "2021-04-26T02:37:15.005Z",
+			"modified_at": "2021-04-26T02:37:15.005Z",
+			"name": "Batman Returns",
+			"type": "movie",
+			"year_produced": 1998,
+			"duration": 170,
+			"produced_by": 6,
+			"license_fee": 4000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 7,
+		"fields": {
+			"created_at": "2021-04-26T02:38:03.324Z",
+			"modified_at": "2021-04-26T02:38:03.324Z",
+			"name": "King Kong",
+			"type": "movie",
+			"year_produced": 2005,
+			"duration": 220,
+			"produced_by": 7,
+			"license_fee": 8000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 8,
+		"fields": {
+			"created_at": "2021-04-26T02:39:15.938Z",
+			"modified_at": "2021-04-26T02:39:15.938Z",
+			"name": "The Sandlot",
+			"type": "movie",
+			"year_produced": 1993,
+			"duration": 180,
+			"produced_by": 3,
+			"license_fee": 3500
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 9,
+		"fields": {
+			"created_at": "2021-04-26T02:41:37.335Z",
+			"modified_at": "2021-04-26T02:41:37.335Z",
+			"name": "Grand Prix: Monaco",
+			"type": "ppv",
+			"year_produced": 2020,
+			"duration": 400,
+			"produced_by": 1,
+			"license_fee": 20000
+		}
+	},
+	{
+		"model": "backend.event",
+		"pk": 10,
+		"fields": {
+			"created_at": "2021-04-26T02:41:57.726Z",
+			"modified_at": "2021-04-26T02:41:57.726Z",
+			"name": "Grand Prix: Italy",
+			"type": "ppv",
+			"year_produced": 2020,
+			"duration": 400,
+			"produced_by": 4,
+			"license_fee": 15000
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 1,
+		"fields": {
+			"type": "POST",
+			"object": "{'month': 10, 'year': 2020}",
+			"recorded_at": "2021-04-26T02:15:38.312Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 2,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'netflix', 'long_name': 'Netflix', 'subscription_fee': '15'}",
+			"recorded_at": "2021-04-26T02:26:16.608Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 3,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'hulu', 'long_name': 'Hulu', 'subscription_fee': '9'}",
+			"recorded_at": "2021-04-26T02:28:04.444Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 4,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'disney', 'long_name': 'Disney+', 'subscription_fee': '18'}",
+			"recorded_at": "2021-04-26T02:28:39.053Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 5,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'hbo', 'long_name': 'HBO Max', 'subscription_fee': '18'}",
+			"recorded_at": "2021-04-26T02:28:46.386Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 6,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'prime', 'long_name': 'Prime Video', 'subscription_fee': '13'}",
+			"recorded_at": "2021-04-26T02:29:05.268Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 7,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'apple', 'long_name': 'AppleTV+', 'subscription_fee': '16'}",
+			"recorded_at": "2021-04-26T02:29:57.736Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 8,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'espn', 'long_name': 'ESPN Studios'}",
+			"recorded_at": "2021-04-26T02:30:22.213Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 9,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'lucasfilm', 'long_name': 'Lucasfilm'}",
+			"recorded_at": "2021-04-26T02:30:29.167Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 10,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'marvel', 'long_name': 'Marvel Entertainment Studios'}",
+			"recorded_at": "2021-04-26T02:30:34.814Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 11,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'sony', 'long_name': 'Sony Pictures'}",
+			"recorded_at": "2021-04-26T02:30:40.377Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 12,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'mgm', 'long_name': 'MGM Studios'}",
+			"recorded_at": "2021-04-26T02:30:45.998Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 13,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'focus', 'long_name': 'Focus Features'}",
+			"recorded_at": "2021-04-26T02:30:56.218Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 14,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'legendary', 'long_name': 'Legendary Entertainment'}",
+			"recorded_at": "2021-04-26T02:31:25.081Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 15,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoA', 'long_name': 'Demographic Group A', 'num_accounts': '90'}",
+			"recorded_at": "2021-04-26T02:31:57.777Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 16,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoB', 'long_name': 'Demographic Group B', 'num_accounts': '140'}",
+			"recorded_at": "2021-04-26T02:32:05.506Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 17,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoC', 'long_name': 'Demographic Group C', 'num_accounts': '220'}",
+			"recorded_at": "2021-04-26T02:32:16.157Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 18,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoD', 'long_name': 'Demographic Group D', 'num_accounts': '145'}",
+			"recorded_at": "2021-04-26T02:32:26.258Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 19,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoE', 'long_name': 'Demographic Group E', 'num_accounts': '200'}",
+			"recorded_at": "2021-04-26T02:32:34.018Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 20,
+		"fields": {
+			"type": "POST",
+			"object": "{'short_name': 'demoF', 'long_name': 'Demographic Group F', 'num_accounts': '160'}",
+			"recorded_at": "2021-04-26T02:32:47.342Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 21,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'NBA Championship', 'type': 'ppv', 'year_produced': 2020, 'duration': 400, 'produced_by': '1', 'license_fee': 14000}",
+			"recorded_at": "2021-04-26T02:34:08.400Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 22,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'World Series: Game 7', 'type': 'ppv', 'year_produced': 2020, 'duration': 400, 'produced_by': '1', 'license_fee': 11000}",
+			"recorded_at": "2021-04-26T02:34:35.795Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 23,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Batman', 'type': 'movie', 'year_produced': 1995, 'duration': 180, 'produced_by': '5', 'license_fee': 8000}",
+			"recorded_at": "2021-04-26T02:34:54.635Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 24,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Batman', 'type': 'movie', 'year_produced': 2015, 'duration': 220, 'produced_by': '7', 'license_fee': 14000}",
+			"recorded_at": "2021-04-26T02:35:14.269Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 25,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Star Wars: Episode X', 'type': 'movie', 'year_produced': 2021, 'duration': 190, 'produced_by': '2', 'license_fee': 13000}",
+			"recorded_at": "2021-04-26T02:35:39.757Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 26,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Batman Returns', 'type': 'movie', 'year_produced': 1998, 'duration': 170, 'produced_by': '6', 'license_fee': 4000}",
+			"recorded_at": "2021-04-26T02:37:15.007Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 27,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'King Kong', 'type': 'movie', 'year_produced': 2005, 'duration': 220, 'produced_by': '7', 'license_fee': 8000}",
+			"recorded_at": "2021-04-26T02:38:03.327Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 28,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'The Sandlot', 'type': 'movie', 'year_produced': 1993, 'duration': 180, 'produced_by': '3', 'license_fee': 3500}",
+			"recorded_at": "2021-04-26T02:39:15.941Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 29,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Grand Prix: Monaco', 'type': 'ppv', 'year_produced': 2020, 'duration': 400, 'produced_by': '1', 'license_fee': 20000}",
+			"recorded_at": "2021-04-26T02:41:37.338Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 30,
+		"fields": {
+			"type": "POST",
+			"object": "{'name': 'Grand Prix: Italy', 'type': 'ppv', 'year_produced': 2020, 'duration': 400, 'produced_by': '4', 'license_fee': 15000}",
+			"recorded_at": "2021-04-26T02:41:57.728Z"
+		}
+	},
+	{
+		"model": "backend.transaction",
+		"pk": 31,
+		"fields": {
+			"type": "GET",
+			"object": "NBA Championship(2020),ppv, duration 400, produced_by ESPN Studios, license fee 14000",
+			"recorded_at": "2021-04-26T02:42:09.206Z"
+		}
+	},
+	{
+		"model": "backend.time",
+		"pk": 1,
+		"fields": {
+			"created_at": "2021-04-26T02:15:38.311Z",
+			"modified_at": "2021-04-26T02:15:38.311Z",
+			"month": 10,
+			"year": 2020
+		}
+	}
+]

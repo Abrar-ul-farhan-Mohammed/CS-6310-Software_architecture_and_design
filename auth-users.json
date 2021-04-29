@@ -1,0 +1,59 @@
+[
+	{
+		"model": "authentication.customuser",
+		"pk": 2,
+		"fields": {
+			"password": "pbkdf2_sha256$180000$lGg9UAori9Es$wmARI8Ii45eQ46l2gK/22/ughL7zkl3Tue64eM9Y5iM=",
+			"last_login": null,
+			"is_superuser": false,
+			"username": "analyst",
+			"first_name": "",
+			"last_name": "",
+			"email": "analyst@streamingwars.com",
+			"is_staff": false,
+			"is_active": true,
+			"date_joined": "2021-04-25T21:40:48Z",
+			"role": "analyst",
+			"groups": [2],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "authentication.customuser",
+		"pk": 3,
+		"fields": {
+			"password": "pbkdf2_sha256$180000$hlxP65j1ZciY$GI2h6N10yU33xvzf7RlhSz1qYTEg/kCHFvzpeP8i2lg=",
+			"last_login": "2021-04-25T23:57:06Z",
+			"is_superuser": true,
+			"username": "sysadmin",
+			"first_name": "",
+			"last_name": "",
+			"email": "sysadmin@streamingwars.com",
+			"is_staff": true,
+			"is_active": true,
+			"date_joined": "2021-04-25T21:40:48Z",
+			"role": "sysadmin",
+			"groups": [3],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "authentication.customuser",
+		"pk": 4,
+		"fields": {
+			"password": "pbkdf2_sha256$180000$rMkn7WMBS1qv$QpYpKg3DGb8yVeAA0GzDuiDMVQwN6iJXMKFMyAV8SNI=",
+			"last_login": null,
+			"is_superuser": false,
+			"username": "regular",
+			"first_name": "",
+			"last_name": "",
+			"email": "regular@streamingwars.com",
+			"is_staff": false,
+			"is_active": true,
+			"date_joined": "2021-04-25T21:40:48Z",
+			"role": "regular",
+			"groups": [2],
+			"user_permissions": []
+		}
+	}
+]
